@@ -16,7 +16,7 @@
 
 - name: Ensure browser is installed
   apt:
-    name: chromium
+    name: firefox-esr
     state: present
 
 - name: Ensure autologin systemd dir exists

@@ -7,7 +7,7 @@
 
 ## Description
 
-Create secure kiosk from raspberry using Xorg, openbox, and chromium browser.
+Create secure kiosk from raspberry using Xorg, openbox, and firefox browser.
 Role based on blog post available at https://die-antwort.eu/techblog/2017-12-setup-raspberry-pi-for-kiosk-mode/
 
 ## Requirements
@@ -23,7 +23,7 @@ All variables which can be overridden are stored in [defaults/main.yml](defaults
 | `kiosk_url` | "https://duckduckgo.com" | default URL to open in kiosk browser |
 | `kiosk_delay` | 1 | delay (in seconds) before starting a browser |
 | `kiosk_startx_params` | ["-nocursor"] | parameters to run `startx` with |
-| `kiosk_browser_params` | ["--disable-infobars", "--kiosk"] | parameters to start browser with |
+| `kiosk_browser_params` | ["-kiosk"] | parameters to start browser with |
 
 ## Example
 

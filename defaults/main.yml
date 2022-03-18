@@ -5,5 +5,4 @@ kiosk_delay: 1
 kiosk_startx_params:
   - "-nocursor"
 kiosk_browser_params:
-  - "--disable-infobars"
-  - "--kiosk"
+  - "-kiosk"
