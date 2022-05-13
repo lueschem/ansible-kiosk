@@ -1,3 +1,0 @@
-#!/bin/bash
-
-[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx -- {% for p in kiosk_startx_params %}{{ p }} {% endfor %}

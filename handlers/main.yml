@@ -1,4 +1,5 @@
 ---
-- name: systemd reload
-  systemd:
-    daemon_reload: true
+- name: restart lightdm
+  service:
+    name: lightdm
+    state: restarted
